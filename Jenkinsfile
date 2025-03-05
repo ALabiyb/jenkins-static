@@ -6,8 +6,6 @@ pipeline {
             steps {
                 // Get some code from a GitHub repository
                 git 'https://github.com/ALabiyb/jenkins-static.git'
-            }
-            steps {
                 sh '''
                     docker images
                 '''
